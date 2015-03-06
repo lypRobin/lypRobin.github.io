@@ -6,11 +6,8 @@
 name: 北冥渊
 
 # Short bio or description (displayed in the header)
-<<<<<<< HEAD
+
 description: 水击三千里, 抟扶摇而上者九万里
-=======
-description: 水及三千里，抟扶摇而上者九万里
->>>>>>> 995fdcc14922f1404babafa48dedad6bd64a0943
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
