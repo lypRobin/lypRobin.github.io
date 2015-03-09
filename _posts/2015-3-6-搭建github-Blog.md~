@@ -42,7 +42,6 @@
 > $gem install jekyll
 
 安装后ruby版本为
-
 >ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-linux]
 
 
