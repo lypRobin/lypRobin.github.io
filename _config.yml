@@ -2,7 +2,6 @@
 title: 北冥渊afdsa
 email: lyp40293@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-
 水击三千里，抟扶摇而上者九万里
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
