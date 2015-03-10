@@ -2,7 +2,7 @@
 title: 北冥渊——一片二进制实验田
 email: lyp40293@gmail.com
 description: 水击三千里，抟扶摇而上者九万里
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lypRobin.github.io" # the base hostname & protocol for your site
 github_username:  lypRobin
 

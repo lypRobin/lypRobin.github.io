@@ -119,14 +119,12 @@ OK!
 
 > $ git push origin master
 
-![blog-sample](/images/2015-3-6-搭建GithubBlog/blog-sample.png "blog-sample")
+![blog-sample](/images/2015-3-6-搭建GithubBlog.png "blog-sample")
 
 在username.github.io就能看到一个基础的博客了。至此在github搭建blog完成，后篇开始学习jekyll装饰博客、写博文的细节。
 
 
 
-
-####  *----------The ENd------------*
 
 
 
