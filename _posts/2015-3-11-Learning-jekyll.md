@@ -1,3 +1,4 @@
+
 ---
 title: Learning jekyll (持续更新)
 layout: post
@@ -121,14 +122,12 @@ end
 
 使用post_url标签，方法如下：
 
-    {% post_url 2015-3-4-name-of-post %}
+    "{&#37; post_url 2015-3-6-搭建GithubBlog &#37;}"  #只是双引号内的内容
     或
-    {% post_url /DirToPost/2015-3-4-name-of-post %}
+    "{&#37; post_url /DirToPost/2015-3-4-name-of-post &#37;}"
     或
-    [Name of Link]({% post_url 2015-3-4-name-of-post %})
-
-
-
+    "[Name of Link]({&#37; post_url 2015-3-4-name-of-post &#37;})"
+    效果为[这样]({ post_url 2015-3-6-搭建GithubBlog})
 
 
 
