@@ -8,4 +8,4 @@ github_username:  lypRobin
 
 # Build settings
 markdown: kramdown
-highlighter: pygment
+highlighter: pygments
