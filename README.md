@@ -1,2 +1,1 @@
-# lypRobin.github.io
-Personal Blog
+My Personal Blog Site
