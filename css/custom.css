@@ -1,0 +1,118 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.post-date{
+	float:right;
+	padding:5px;
+	font-size:12px
+}
+
+.img-top{
+	position:relative
+}
+
+.img-words{
+	position:absolute;
+	top:140px;
+	height:130px;
+	left:850px;
+	font-size: 450%;
+	font-weight: 400;
+	color:#8e0ce0;
+}
+
+.img-subwords{
+	position:absolute;
+	top:240px;
+	height:130px;
+	left:910px;
+	font-size: 220%;
+	font-weight: 200;
+	color:#8e0ce0;
+}
+
+/*.nav-text{
+	font-size: 150%;
+	font-weight: 100;
+	color:#0abe24;
+}*/
+
+.navbar {  
+    background-color: #0d66b8;  
+
+   
+} 
+
+.navbar-brand{
+	float:left;
+	height:50px;
+	padding:15px 15px;
+	font-size:25px;
+	line-height:20px;
+	color: white;
+}
+
+.navbar-brand:hover, .navbar-brand:focus{
+	color:#00005e;
+	background-color: #09c8e4
+
+}
+
+
+/* Adjust Menu (red) text color, (Garamond) font-family, (1.5em) font-size  */
+.navbar .nav > li > a, /*.navbar .nav > li > a:first-letter,*/
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+/*display:        inline;*/
+color:          white;                        
+font-size:      120%;
+/*padding:        5px 20px;*/
+}
+
+/* Adjust Menu colors - Normal */
+.navbar .nav > li > a/*, .navbar .nav > li > a:first-letter*/ {
+	font-size:      120%;
+color:          white;
+text-shadow:    none;
+}
+/* Adjust Menu colors - Hover */
+.navbar .nav > li > a:hover/*, .navbar .nav > li > a:hover:first-letter */{ 
+/*color:          white;                      */
+text-shadow:    none;
+background-color: #09c8e4;
+}
+/* Adjust Menu colors - Active */
+.navbar .nav > li > a:active,/* .navbar .nav > li > a:active:first-letter,*/
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a,
+/*.navbar .nav > li.current-menu-item > a:first-letter, 
+.navbar .nav > li.current-menu-ancestor > a:first-letter*/ {
+color:          blue;
+text-shadow:    none;
+}
+
+/* Adjust dropdown Menu items (blue) text color & (yellow) shading */
+.dropdown-menu > li > a {
+color:          blue;
+background:     yellow;
+}
+
+/* Remove the Hover/Focus Colors  */
+.navbar .nav > li.current-menu-item > a, .navbar .nav > li.current-menu-ancestor > a/*, 
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus*/ {
+color:          #005A5A;
+}
+
+
+
