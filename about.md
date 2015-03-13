@@ -1,13 +1,11 @@
 ---
-layout: page
-title: 了解我
-permalink: /about/
+layout: default
+title: "关于：About"
 ---
+####Basic Info
+My name is Pan Xuewen, A software developer on Android and Linux platform, I'm living in Hongshan, Wuhan, China.  
 
-**name@Internet**: robin、水击三千里、lyp40293.....
-
-**Email**：
- 
-> lyp40293@gmail.com / liyanpeng08@gmail.com
-
-> lyp40293@163.com (only used for China Mainland)
+####Links
+Resume: <http://gurudigger.com/users/panxw/p?t=fc59f9c1>  
+GitHub: <https://github.com/{{ site.github }}>  
+LinkedIn: <http://www.linkedin.com/in/panxw>  
