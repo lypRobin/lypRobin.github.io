@@ -1,11 +1,24 @@
-# Site settings
-title: 北冥渊——一片二进制实验田
-email: lyp40293@gmail.com
-description: 水击三千里，抟扶摇而上者九万里
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://lypRobin.github.io" # the base hostname & protocol for your site
-github_username:  lypRobin
-
-# Build settings
-markdown: kramdown
+markdown: redcarpet
+permalink: /:categories/:title.html
+url: 
+lsi: false
 highlighter: pygments
+pygments: true
+safe: true
+auto: false 
+
+paginate: 8
+paginate_path: "page:num"
+
+# presonal config
+domain: www.panxw.com
+title: Robin's Blog
+description: Android, Cocos2d, Java Web, Linux, reading...
+author: Steven Pan
+email: winfirm#163.com
+github: panxw
+
+config:
+  js_dir:
+  img_dir:
+  css_dir:
