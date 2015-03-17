@@ -123,12 +123,12 @@ end
 
 使用post_url标签，方法如下：
 
-    { % post_url 2015-3-4-name-of-post % }  #注意去掉{ 和%之间的空格
+    { % post_url 2014-3-4-name-of-post % }  #注意去掉{ 和%之间的空格
     或
-    "{ % post_url /DirToPost/2015-3-4-name-of-post % }"
+    "{ % post_url /DirToPost/2014-3-4-name-of-post % }"
     或
-    "[Name of Link]({ % post_url 2015-3-4-name-of-post % })"
-    效果为[这样]({% post_url 2015-3-6-搭建GithubBlog %})
+    "[Name of Link]({ % post_url 2014-3-4-name-of-post % })"
+    效果为[这样]({% post_url 2014-6-7-build-GithubBlog-setup %})
 
 
 
