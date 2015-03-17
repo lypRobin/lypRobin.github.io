@@ -1,5 +1,5 @@
 ---
-title: bootstrap 栅格系统
+title: Learning bootstrap (栅格系统)
 layout: post
 ---
 
