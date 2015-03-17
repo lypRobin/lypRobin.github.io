@@ -7,16 +7,16 @@ pygments: true
 safe: true
 auto: false 
 
-paginate: 8
+paginate: 8 
 paginate_path: "page:num"
 
 # presonal config
-domain: www.panxw.com
+domain: 
 title: Robin's Blog
 description: Android, Cocos2d, Java Web, Linux, reading...
-author: Steven Pan
-email: winfirm#163.com
-github: panxw
+author: Robin 
+email: lyp40293@gmail.com
+github: lypRobin
 
 config:
   js_dir:
