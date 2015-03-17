@@ -1,13 +1,7 @@
 ---
-title: Learning jekyll (持续更新)
+title: Learning jekyll 
 layout: post
 ---
-
-### *更新记录*
-
-> 2015-3-11  Create blog
-
-> 2015-3-12  更新_config.yml、
 
 ### 1. jekyll基本架构
 
