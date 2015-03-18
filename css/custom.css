@@ -1,4 +1,4 @@
-/*!
+/*/*!
  * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -6,6 +6,7 @@
 
 body {
     padding-top: 0px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+
 }
 
 footer {
@@ -18,37 +19,40 @@ footer {
 	font-size:12px
 }
 
-/*
+
 .img-top{
-	position:relative
+	max-width: 100%;
+
+
+	position: relative;
+	/*background-size: cover;*/
+	text-align:center;
 }
-*/
+
+.jumbotron{
+	padding:30px;
+	margin-bottom:30px;
+	height: 300px;
+	/*color:inherit;*/
+	background-image: url(../resources/top.png);
+	text-align: center;
+	color:#8e0ce0;
+	text-decoration:none
+}
+
 
 .img-words{
-	position:absolute;
-	top:140px;
-	height:130px;
-	left:850px;
-	font-size: 450%;
-	font-weight: 400;
-	color:#8e0ce0;
-}
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	position: relative;
+	top:50px;
+	/*height:130px;*/
+	text-align: center;
 
-.img-subwords{
-	position:absolute;
-	top:240px;
-	height:130px;
-	left:910px;
-	font-size: 220%;
-	font-weight: 200;
-	color:#8e0ce0;
-}
-
-/*.nav-text{
-	font-size: 150%;
+	font-size: 100%;
 	font-weight: 100;
-	color:#0abe24;
-}*/
+	color:#8e0ce0;
+}
+
 
 .navbar {  
     background-color: #0d66b8;  
@@ -119,3 +123,4 @@ color:          #005A5A;
 
 
 
+*/
