@@ -18,9 +18,11 @@ footer {
 	font-size:12px
 }
 
+/*
 .img-top{
 	position:relative
 }
+*/
 
 .img-words{
 	position:absolute;
@@ -99,7 +101,7 @@ background-color: #09c8e4;
 .navbar .nav > li.current-menu-ancestor > a,
 /*.navbar .nav > li.current-menu-item > a:first-letter, 
 .navbar .nav > li.current-menu-ancestor > a:first-letter*/ {
-color:          blue;
+color:          white;
 text-shadow:    none;
 }
 
