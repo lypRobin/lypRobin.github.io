@@ -79,7 +79,7 @@ OK!
 
 结构如下图：
 
-![myblog_tree](/images/2015-3-6-搭建GithubBlog/myblog_tree.png)
+![myblog_tree](/images/2014-6-7-build-GithubBlog-setup/myblog_tree.png)
 
 启动jekyll本地服务器：
 
@@ -119,7 +119,7 @@ OK!
 
 > $ git push origin master
 
-![blog-sample](/images/2015-3-6-搭建GithubBlog/blog-sample.png "blog-sample")
+![blog-sample](/images/2014-6-7-build-GithubBlog-setup/blog-sample.png "blog-sample")
 
 在username.github.io就能看到一个基础的博客了。至此在github搭建blog完成，后篇开始学习jekyll装饰博客、写博文的细节。
 
