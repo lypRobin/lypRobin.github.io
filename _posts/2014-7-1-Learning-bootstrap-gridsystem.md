@@ -10,7 +10,7 @@ bootstrap的栅格系统作为布局页面的基本方法，Bootstrap内置了�
 
 栅格布局如下
 
-![bootstrap grid](/images/2015-3-15-Learning-bootstrap/bootstrap-grid.png)
+![bootstrap grid](/images/2014-7-1-Learning-bootstrap-gridsystem/bootstrap-grid.png)
 
 在`<div>`的class选项中前缀分别为col-xs、col-sm、col-md、col-lg，后面跟以数字，例如`col-mid-12`、`com-sm-8`等，分别为12格和8格。
 
