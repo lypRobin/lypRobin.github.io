@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "关于：About"
+title: About me
 ---
 ####Basic Info
 My name is Pan Xuewen, A software developer on Android and Linux platform, I'm living in Hongshan, Wuhan, China.  
