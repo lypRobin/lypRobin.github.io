@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 搭建Github Blog （环境安装）
+category: tech
+tags: [github, jekyll, bootstrap]
 ---
 
 ### 0. 引

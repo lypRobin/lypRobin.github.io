@@ -1,6 +1,8 @@
 ---
 title: bootstrap初探
 layout: post
+category: tech
+tag: bootstrap
 ---
 
 ### 引

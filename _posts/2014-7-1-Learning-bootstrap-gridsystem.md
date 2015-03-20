@@ -1,6 +1,8 @@
 ---
 title: Learning bootstrap (栅格系统)
 layout: post
+category: tech
+tag: bootstrap
 ---
 
 

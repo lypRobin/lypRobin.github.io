@@ -1,6 +1,8 @@
 ---
 title: Learning jekyll 
 layout: post
+category: tech
+tag: jekyll
 ---
 
 ### 1. jekyll基本架构
