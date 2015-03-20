@@ -88,29 +88,7 @@
     <!-- Page Content -->
     <div class="container">
         <div class="row">
-            <!-- Blog Entries Column -->
-            <div class="col-md-8">
-                {{ content }}
-            </div>
-            <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4">
-                <!-- Blog Categories Well -->
-                <div class="well">
-                    <h4>Categories</h4>
-                    <div class="row">
-                        {% include categories.html %} 
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- Blog Links Well -->
-
-                <div class="well">
-                    <h4>Time Line</h4>
-                    {% include links.html %} 
-                </div>
-                <!-- Side Widget Well -->
-          
-            </div>
+            {{ content }}
         </div>
         <!-- /.row -->
         <hr>
