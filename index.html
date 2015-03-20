@@ -3,42 +3,67 @@ layout: default
 title: "Home:"
 ---
 
-<!-- Loop output paged posts -->
+<!-- Blog Entries Column -->
+<div class="col-md-8">
+                <!-- Loop output paged posts -->
 {% for post in paginator.posts %}
-<h2>
-  <a href="{{ post.url }}">
-    {{ post.title }}
-  </a> 
-  <div class="post-date">
-	<span class="glyphicon glyphicon-time"></span>
-	{{ post.date | date_to_string }}
-  </div>
-</h2>
-<hr>
-{{ post.excerpt }}
-	<p> <a href="{{ post.url }}"><span >阅读全文 &raquo; </span></a></p>
-<hr>
+    <h2>
+        <a href="{{ post.url }}">
+            {{ post.title }}
+        </a> 
+       <div class="post-date">
+       <span class="glyphicon glyphicon-time"></span>
+         {{ post.date | date_to_string }}
+      </div>
+    </h2>
+
+    <hr>
+    {{ post.excerpt }}
+    <p> <a href="{{ post.url }}"><span >阅读全文 &raquo; </span></a></p>
+    <hr>
 {% endfor %}
 
 <!-- Pager indicator -->
 <ul class="pager">
-  {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
-  <li class="previous">
-    <a href="{{ site.url }}/">
-      &larr; Last Page
-    </a>
-  </li>
-  {% else %}
-  <li class="previous">
-    <a href="{{ site.url }}/page{{ paginator.previous_page }}">
-      &larr; Last Page
-    </a>
-  </li>
-  {% endif %} {% endif %} {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ site.url }}/page{{ paginator.next_page }}">
-      Next Page &rarr;
-    </a>
-  </li>
-  {% endif %}
+    {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
+        <li class="previous">
+        <a href="{{ site.url }}/">
+            &larr; Last Page
+        </a>
+       </li>
+    {% else %}
+        <li class="previous">
+        <a href="{{ site.url }}/page{{ paginator.previous_page }}">
+            &larr; Last Page
+        </a>
+        </li>
+    {% endif %} {% endif %} {% if paginator.next_page %}
+        <li class="next">
+        <a href="{{ site.url }}/page{{ paginator.next_page }}">
+            Next Page &rarr;
+        </a>
+    </li>
+    {% endif %}
 </ul>
+</div>
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Categories</h4>
+                    <div class="row">
+                        {% include categories.html %} 
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- Blog Links Well -->
+
+                <div class="well">
+                    <h4>Time Line</h4>
+                    {% include links.html %} 
+                </div>
+                <!-- Side Widget Well -->
+          
+            </div>
+
+
