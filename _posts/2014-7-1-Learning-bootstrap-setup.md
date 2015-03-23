@@ -1,7 +1,7 @@
 ---
 title: bootstrap初探
 layout: post
-category: tech
+category: blog
 tag: bootstrap
 ---
 

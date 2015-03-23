@@ -1,7 +1,7 @@
 ---
 layout: post
 title: bootstrap静态图片
-category: tech
+category: blog
 tag: bootstrap
 ---
 

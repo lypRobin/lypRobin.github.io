@@ -1,7 +1,7 @@
 ---
 title: Learning jekyll 
 layout: post
-category: tech
+category: blog
 tag: jekyll
 ---
 
