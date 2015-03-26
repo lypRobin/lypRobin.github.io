@@ -5,6 +5,8 @@ category: blog
 tag: jekyll
 ---
 
+来看看jekyll的基本架构，算是入门篇。
+
 ### 1. jekyll基本架构
 
 使用`jekyll new`命令生成的初始基本架构如下：

@@ -5,8 +5,6 @@ category: blog
 tag: bootstrap
 ---
 
-### 引
-
 Bootstrap是Twitter两名员工开发的最受欢迎的前端框架，给予HTML、CSS和JS，简洁明了，让我这样的前端新手也能快速上手。简单看一下网上的[教程](http://www.w3cschool.cc/bootstrap/bootstrap-tutorial.html),就能轻松修改一个模板或自己写出一个简单的前端页面。本博客网站就是给予jekyll和bootstrap搭建，有人说bootstrap过于庞大，当然也可以定制自己的小清新页面，但作为新手快速了解前端架构不失为一个不错的方案。
 
 就本站来说jekyll+bootstrap可以写在一起，但不免抹煞bootstrap且看起来较为凌乱，因此把bootstrap独立出来，也给以后可能用到的地方作为经验参考。
