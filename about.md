@@ -2,10 +2,12 @@
 layout: default
 title: About me
 ---
-####Basic Info
-My name is Pan Xuewen, A software developer on Android and Linux platform, I'm living in Hongshan, Wuhan, China.  
 
-####Links
-Resume: <http://gurudigger.com/users/panxw/p?t=fc59f9c1>  
-GitHub: <https://github.com/{{ site.github }}>  
-LinkedIn: <http://www.linkedin.com/in/panxw>  
+Robin，现居于北京，毕业于北航，喜好各种技术实践，信奉技术改变世界的终极定理。学生时代参与多种技术开发，喜好Linux及开源项目。现工作于中科院，开发物联网、机器人为平台的海云网络系统，在学习ROS、机器学习、数据挖掘相关内容。
+
+这是在Github上托管的个人网站，会写一些学习笔记和开发过程中遇到的问题及想法，也会放出些许作品及一些生活随笔、感悟，在网络信息发达的今天，让这里成为二进制世界的一小片试验田。
+
+
+
+
+
