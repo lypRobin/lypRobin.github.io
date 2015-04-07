@@ -1,6 +1,8 @@
 ---
 title: 在eclipse中开发ROS
 layout: post
+category: blog
+tag: ros
 ---
 
 根据教程学习了ROS开发例子，但开发比较复杂的工程或有序组织文件还是要有个IDE比较好，那神器eclipse就当人不让了，在eclipse中配置ROS开发环境也很简单。
@@ -14,9 +16,35 @@ layout: post
 ```
  make eclipse-project
 ```
-package路径下多了一个lib文件夹。
+package路径下多了一个`lib`文件夹和相应的`.project`文件。
 
-#### 使用**catkin_create_pkg**命令创建包
+打开Eclipse，File-->import中选中要打开的包目录，导入。这里需要修改CMakeList.txt文件。
+
+根据注释提示，可以修改`rosbuild_genmsg()`和`rosbuild_genmsg()`语句。需要注意的是最后几条语句，其中`PROJECT-NAME`是eclipse设置的变量名，不需要修改，只修改小写的名称即可。
+
+```
+#common commands for building c++ executables and libraries
+# 改这里
+rosbuild_add_library(${PROJECT_NAME} src/example.cpp)
+
+# 改这里如果需要的化
+#target_link_libraries(${PROJECT_NAME} another_library)
+#rosbuild_add_boost_directories()
+#rosbuild_link_boost(${PROJECT_NAME} thread)
+
+# 改这里
+rosbuild_add_executable(example example/example.cpp)
+
+# 改这里
+target_link_libraries(example ${PROJECT_NAME})
+
+```
+
+修改完毕后即可编译了，编译后可执行文件在`bin`目录下，库文件在`lib`目录下。
+
+如果一个`package`下有多个`node`节点，每个节点的`cpp`文件都会有一个`main`函数，这时build project的时候会报`multiple definition of "main"`的错误，但不影响可执行文件的生成，运行也没有问题。
+
+#### 使用**catkin\_create\_pkg**命令创建包
 
 若使用该命令，则包路径下只有CMakeList.txt和package.xml文件(如果有依赖包，则有`include`和`src`文件夹)，使用如下命令生成Eclipse所需要的文件：
 
