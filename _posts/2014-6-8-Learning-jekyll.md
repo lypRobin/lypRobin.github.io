@@ -72,12 +72,12 @@ _configy.yml文件是jekyll的全局配置文件，里面定义若干选项对�
 
 ### 3. jekyll YML Front Matter文件头
 jekyll通过yml front matter解析主目录下的每个文件头，每个文件头为如下格式：
-
+```
     ---
     layout：default
     title：hello world
     ---
-
+```
 layout、title为预定义的变量值。
 
 
