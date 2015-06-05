@@ -22,7 +22,7 @@ tags: [ros, 3dsensor]
 
 在`src`路径下建立`kinect_talker.cpp`文件：
 
-{% highlight %}
+{% highlight cpp %}
 
 /*****************************************************************************
 *                                                                            *
@@ -70,7 +70,7 @@ tags: [ros, 3dsensor]
 
 using namespace xn;
 
-int main()
+int main(int argc, char **argv)
 {
 	XnStatus nRetVal = XN_STATUS_OK;
 	Context context;
@@ -140,7 +140,7 @@ int main()
 
 在`src`目录下新建`kinect_listener.cpp`：
 
-{% highlight %}
+{% highlight C++ %}
 
 #include "ros/ros.h"  
 #include "std_msgs/String.h"  
