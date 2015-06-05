@@ -2,7 +2,7 @@
 layout: post
 title: ROS笔记——建立package
 category: blog
-tag: ROS
+tag: ros
 ---
 
 ROS是Robot Operating System，一个开放的机器人操作系统，说是OS，但依然还需要跑在Ubuntu等真正的OS上，严格说只是OS上的一个抽象层或中间件。ROS的存在省去了机器人开发过程中繁杂的驱动开发（当然还是要有驱动的，但提供了一种方便的开发形式（后面学习），或者有通用的驱动别人已经开发好了）和软件架构，只需要专注功能开发即可，ROS可以说是一个机器人的软件平台，让所有开发者都能在其中受益。
