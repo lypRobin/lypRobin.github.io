@@ -22,6 +22,7 @@ tags: [ros, 3dsensor]
 ### *freenect_stack驱动*
 
 其中`freenect_stack`是基于libfreenect的kinect驱动的封装，只要安装完ROS，freenect_stack作为BareBone的一部分也会被安装，将kinect接入到A80上，使用命令：
+
 ```
 > lsusb | grep Xbox
 > Bus 001 Device 008: ID 045e:02ae Microsoft Corp. Xbox NUI Camera
@@ -31,6 +32,7 @@ tags: [ros, 3dsensor]
 ```
 
 会发现kinect的camera、motor、audio都已正常接入。运行freenect的某一例程
+
 ```
 > freenect-glview
 > Kinect camera test
@@ -54,8 +56,8 @@ tags: [ros, 3dsensor]
 ```
 > git clone -b unstable https://github.com/OpenNI/OpenNI.git
 > cd OpenNI/Platform/Linux/CreateRedist
-\# 该目录下会有多个RedistMaker*文件，任意运行一个即可，会自动检测平台架构。
-\# RedistMaker可自动执行make功能，也可到`../Build`目录下手动`make`
+# 该目录下会有多个RedistMaker*文件，任意运行一个即可，会自动检测平台架构。
+# RedistMaker可自动执行make功能，也可到`../Build`目录下手动`make`
 > chmod +x RedistMaker
 > ./RedistMaker
 ```
@@ -71,6 +73,7 @@ fatal error: sys/cdefs.h: No such file or directory
 .....
 
 ```
+
 查找原因是因为在32bit机器上编译64bit文件导致的，但A80并不是64bit，总之还是因为缺少库文件，查找`cdefs.h`文件需要安装依赖包：
 
 ```
