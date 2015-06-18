@@ -193,7 +193,7 @@ int main (int argc, char** argv)
 
 建立`pc_listener.cpp`文件
 
-{% hightlight cpp %}
+{% highlight cpp %}
 #include <ros/ros.h>
 #include <pcl/point_types.h>
 #include <pcl/visualization/pcl_visualizer.h>    
