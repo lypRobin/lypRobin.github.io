@@ -35,7 +35,7 @@ bootstrap中使用静态图片遇到的一些坑，算是前端新手交的学�
 
 效果如下：
 
-![jumbotron](images/2014-7-3-Learning-bootstrap-image/jumbotron.png)
+![jumbotron](/images/2014-7-3-Learning-bootstrap-image/jumbotron.png)
 
 在css中设置`background-image:url(xxx/yy.jpg)`,注意url使用的*相对路径*（相对css文件），这里也徘徊许久。
 

@@ -17,7 +17,7 @@ So easy！[官网](http://getbootstrap.com/)下载，分为预编译版本和源
 
 下载后的文件树如下：
 
-![bootstrap-tree](/images/2015-3-15-Learning-bootstrap/bootstrap-tree.png)
+![bootstrap-tree](/images/2014-7-1-Learning-bootstrap-gridsystem/bootstrap-tree.png)
 
 **Hello World**
 
