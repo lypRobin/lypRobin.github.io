@@ -2,7 +2,7 @@
 permalink: /:categories/:title.html
 url: 
 lsi: false
-highlighter: pygments
+highlighter: rouge 
 #pygments: true
 safe: true
 #auto: false 
